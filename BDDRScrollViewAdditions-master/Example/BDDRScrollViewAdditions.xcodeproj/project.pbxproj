@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE42C6B217B0464E004BA34D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE42C6B117B0464E004BA34D /* UIKit.framework */; };
+		EE42C6B417B0464E004BA34D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE42C6B317B0464E004BA34D /* Foundation.framework */; };
+		EE42C6B617B0464E004BA34D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE42C6B517B0464E004BA34D /* CoreGraphics.framework */; };
+		EE42C6F317B04FF6004BA34D /* BDDRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42C6EB17B04FF6004BA34D /* BDDRAppDelegate.m */; };
+		EE42C6F417B04FF6004BA34D /* BDDRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42C6ED17B04FF6004BA34D /* BDDRViewController.m */; };
+		EE42C6F517B04FF6004BA34D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42C6F017B04FF6004BA34D /* main.m */; };
+		EE42C6FA17B05016004BA34D /* UIScrollView+BDDRScrollViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42C6F917B05016004BA34D /* UIScrollView+BDDRScrollViewAdditions.m */; };
+		EE42C6FC17B0594C004BA34D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE42C6FB17B0594C004BA34D /* Default-568h@2x.png */; };
+		EE42C6FE17B059A6004BA34D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE42C6FD17B059A6004BA34D /* Storyboard.storyboard */; };
+		EE890D3817C26B39004A563F /* BDDROneFingerZoomGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE890D3517C26B39004A563F /* BDDROneFingerZoomGestureRecognizer.m */; };
+		EE890D3917C26B39004A563F /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = EE890D3717C26B39004A563F /* JRSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE42C6AE17B0464E004BA34D /* BDDRScrollViewAdditions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDDRScrollViewAdditions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE42C6B117B0464E004BA34D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE42C6B317B0464E004BA34D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE42C6B517B0464E004BA34D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE42C6EA17B04FF6004BA34D /* BDDRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDRAppDelegate.h; sourceTree = "<group>"; };
+		EE42C6EB17B04FF6004BA34D /* BDDRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDRAppDelegate.m; sourceTree = "<group>"; };
+		EE42C6EC17B04FF6004BA34D /* BDDRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDRViewController.h; sourceTree = "<group>"; };
+		EE42C6ED17B04FF6004BA34D /* BDDRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDRViewController.m; sourceTree = "<group>"; };
+		EE42C6EF17B04FF6004BA34D /* BDDRScrollViewAdditions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BDDRScrollViewAdditions-Prefix.pch"; sourceTree = "<group>"; };
+		EE42C6F017B04FF6004BA34D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE42C6F217B04FF6004BA34D /* BDDRScrollViewAdditions-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BDDRScrollViewAdditions-Info.plist"; sourceTree = "<group>"; };
+		EE42C6F817B05016004BA34D /* UIScrollView+BDDRScrollViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+BDDRScrollViewAdditions.h"; sourceTree = "<group>"; };
+		EE42C6F917B05016004BA34D /* UIScrollView+BDDRScrollViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+BDDRScrollViewAdditions.m"; sourceTree = "<group>"; };
+		EE42C6FB17B0594C004BA34D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EE42C6FD17B059A6004BA34D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EE890D3417C26B39004A563F /* BDDROneFingerZoomGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDDROneFingerZoomGestureRecognizer.h; path = Vendor/BDDROneFingerZoomGestureRecognizer.h; sourceTree = SOURCE_ROOT; };
+		EE890D3517C26B39004A563F /* BDDROneFingerZoomGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BDDROneFingerZoomGestureRecognizer.m; path = Vendor/BDDROneFingerZoomGestureRecognizer.m; sourceTree = SOURCE_ROOT; };
+		EE890D3617C26B39004A563F /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRSwizzle.h; path = Vendor/JRSwizzle.h; sourceTree = SOURCE_ROOT; };
+		EE890D3717C26B39004A563F /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRSwizzle.m; path = Vendor/JRSwizzle.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE42C6AB17B0464E004BA34D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE42C6B217B0464E004BA34D /* UIKit.framework in Frameworks */,
+				EE42C6B417B0464E004BA34D /* Foundation.framework in Frameworks */,
+				EE42C6B617B0464E004BA34D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE42C6A517B0464E004BA34D = {
+			isa = PBXGroup;
+			children = (
+				EE42C6E917B04FF6004BA34D /* Classes */,
+				EE42C6F717B05016004BA34D /* Vendor */,
+				EE42C6EE17B04FF6004BA34D /* Other Sources */,
+				EE42C6F117B04FF6004BA34D /* Resources */,
+				EE42C6B017B0464E004BA34D /* Frameworks */,
+				EE42C6AF17B0464E004BA34D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE42C6AF17B0464E004BA34D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE42C6AE17B0464E004BA34D /* BDDRScrollViewAdditions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE42C6B017B0464E004BA34D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE42C6B117B0464E004BA34D /* UIKit.framework */,
+				EE42C6B317B0464E004BA34D /* Foundation.framework */,
+				EE42C6B517B0464E004BA34D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE42C6E917B04FF6004BA34D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE42C6EA17B04FF6004BA34D /* BDDRAppDelegate.h */,
+				EE42C6EB17B04FF6004BA34D /* BDDRAppDelegate.m */,
+				EE42C6EC17B04FF6004BA34D /* BDDRViewController.h */,
+				EE42C6ED17B04FF6004BA34D /* BDDRViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE42C6EE17B04FF6004BA34D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EE42C6F017B04FF6004BA34D /* main.m */,
+				EE42C6EF17B04FF6004BA34D /* BDDRScrollViewAdditions-Prefix.pch */,
+				EE42C6FD17B059A6004BA34D /* Storyboard.storyboard */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		EE42C6F117B04FF6004BA34D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE42C6F217B04FF6004BA34D /* BDDRScrollViewAdditions-Info.plist */,
+				EE42C6FB17B0594C004BA34D /* Default-568h@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EE42C6F717B05016004BA34D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				EE42C6F817B05016004BA34D /* UIScrollView+BDDRScrollViewAdditions.h */,
+				EE42C6F917B05016004BA34D /* UIScrollView+BDDRScrollViewAdditions.m */,
+				EE890D3417C26B39004A563F /* BDDROneFingerZoomGestureRecognizer.h */,
+				EE890D3517C26B39004A563F /* BDDROneFingerZoomGestureRecognizer.m */,
+				EE890D3617C26B39004A563F /* JRSwizzle.h */,
+				EE890D3717C26B39004A563F /* JRSwizzle.m */,
+			);
+			name = Vendor;
+			path = ../BDDRScrollViewAdditions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE42C6AD17B0464E004BA34D /* BDDRScrollViewAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE42C6D417B0464E004BA34D /* Build configuration list for PBXNativeTarget "BDDRScrollViewAdditions" */;
+			buildPhases = (
+				EE42C6AA17B0464E004BA34D /* Sources */,
+				EE42C6AB17B0464E004BA34D /* Frameworks */,
+				EE42C6AC17B0464E004BA34D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDDRScrollViewAdditions;
+			productName = BDDRScrollViewAdditionsExample;
+			productReference = EE42C6AE17B0464E004BA34D /* BDDRScrollViewAdditions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE42C6A617B0464E004BA34D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BDDR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Christopher - Marcel Böddecker";
+			};
+			buildConfigurationList = EE42C6A917B0464E004BA34D /* Build configuration list for PBXProject "BDDRScrollViewAdditions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE42C6A517B0464E004BA34D;
+			productRefGroup = EE42C6AF17B0464E004BA34D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE42C6AD17B0464E004BA34D /* BDDRScrollViewAdditions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE42C6AC17B0464E004BA34D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE42C6FC17B0594C004BA34D /* Default-568h@2x.png in Resources */,
+				EE42C6FE17B059A6004BA34D /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE42C6AA17B0464E004BA34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE42C6F317B04FF6004BA34D /* BDDRAppDelegate.m in Sources */,
+				EE42C6F417B04FF6004BA34D /* BDDRViewController.m in Sources */,
+				EE42C6F517B04FF6004BA34D /* main.m in Sources */,
+				EE42C6FA17B05016004BA34D /* UIScrollView+BDDRScrollViewAdditions.m in Sources */,
+				EE890D3817C26B39004A563F /* BDDROneFingerZoomGestureRecognizer.m in Sources */,
+				EE890D3917C26B39004A563F /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE42C6D217B0464E004BA34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE42C6D317B0464E004BA34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE42C6D517B0464E004BA34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/BDDRScrollViewAdditions-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/BDDRScrollViewAdditions-Info.plist";
+				PRODUCT_NAME = BDDRScrollViewAdditions;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE42C6D617B0464E004BA34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/BDDRScrollViewAdditions-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/BDDRScrollViewAdditions-Info.plist";
+				PRODUCT_NAME = BDDRScrollViewAdditions;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE42C6A917B0464E004BA34D /* Build configuration list for PBXProject "BDDRScrollViewAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE42C6D217B0464E004BA34D /* Debug */,
+				EE42C6D317B0464E004BA34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE42C6D417B0464E004BA34D /* Build configuration list for PBXNativeTarget "BDDRScrollViewAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE42C6D517B0464E004BA34D /* Debug */,
+				EE42C6D617B0464E004BA34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE42C6A617B0464E004BA34D /* Project object */;
+}

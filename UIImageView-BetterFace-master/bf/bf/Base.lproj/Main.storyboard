@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController autoresizesArchivedViewToFullSize="NO" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="rTX-Sk-cf7">
+                                <rect key="frame" x="0.0" y="276" width="568" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Up1" id="Zro-gv-Lan">
+                                        <connections>
+                                            <action selector="tabPressed:" destination="vXZ-lx-hvc" id="g56-Fk-Kq7"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="1" title="Up2" id="W5t-ih-cw5">
+                                        <connections>
+                                            <action selector="tabPressed:" destination="vXZ-lx-hvc" id="CoX-jx-xdp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="2" title="Up3" id="Qja-tq-D7N">
+                                        <connections>
+                                            <action selector="tabPressed:" destination="vXZ-lx-hvc" id="ATw-o4-34s"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="3" title="Up4" id="Vlg-PT-ra7">
+                                        <connections>
+                                            <action selector="tabPressed:" destination="vXZ-lx-hvc" id="nuN-jp-Ii2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="4" title="Land1" id="Lxl-oz-6hP">
+                                        <connections>
+                                            <action selector="tabPressed:" destination="vXZ-lx-hvc" id="TCB-AS-RG2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="5" title="Land2" id="hrQ-ie-ntH">
+                                        <connections>
+                                            <action selector="tabPressed:" destination="vXZ-lx-hvc" id="Zis-lM-68V"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="6" title="Land3" id="pdt-tr-keO">
+                                        <connections>
+                                            <action selector="tabPressed:" destination="vXZ-lx-hvc" id="rIa-zn-vPd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="7" title="Land4" id="Uup-oe-btL">
+                                        <connections>
+                                            <action selector="tabPressed:" destination="vXZ-lx-hvc" id="5iO-rJ-uSg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="8" title="Multi1" id="86R-rP-Fsq">
+                                        <connections>
+                                            <action selector="tabPressed:" destination="vXZ-lx-hvc" id="kxp-ap-pAi"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="9" title="Multi2" id="mVt-1e-4v5">
+                                        <connections>
+                                            <action selector="tabPressed:" destination="vXZ-lx-hvc" id="Olf-P1-Tbm"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="6fv-VS-Tc0">
+                                <rect key="frame" x="60" y="20" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Q82-Sa-fgI">
+                                <rect key="frame" x="311" y="20" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AspectFill" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3I2-ZV-KZF">
+                                <rect key="frame" x="123" y="239" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BetterFace" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="psh-78-HkH">
+                                <rect key="frame" x="369" y="239" width="85" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="view0" destination="6fv-VS-Tc0" id="k1S-BN-lja"/>
+                        <outlet property="view1" destination="Q82-Sa-fgI" id="FO2-i5-N2W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

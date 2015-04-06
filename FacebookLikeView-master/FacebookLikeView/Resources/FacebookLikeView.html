@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <style type='text/css'>
+            /* Don't allow selection or iOS contextual menus. */
+            * { -webkit-touch-callout: none; -webkit-user-select: none; }
+            
+            /* Don't display prompt for comment after a Like. */
+            .fb_edge_comment_widget { display: none !important; }
+            
+            /* Clip the Like button to the width of the view. */
+            .container { width: %.0fpx; overflow: hidden; }
+            
+            body { margin:0px; }
+        </style>
+    </head>
+    <body>                   
+        <div id='fb-root'></div>
+        <script src='http://connect.facebook.net/en_US/all.js#xfbml=1'></script>
+        <script>
+            function forwardEvent(name) {
+                var iframe = document.createElement('iframe');
+                iframe.setAttribute('src', 'event:' + name);
+                document.documentElement.appendChild(iframe);
+                iframe.parentNode.removeChild(iframe);  
+            };
+            function beginForwardingEvent(name) {
+                FB.Event.subscribe(name, function(r) { forwardEvent(name); });
+            };
+            function beginForwardingEvents(names) {
+                for (var i = 0; i < names.length; i++) {
+                    beginForwardingEvent(names[i]);
+                }
+            };
+            beginForwardingEvents(['edge.create', 'edge.remove', 'xfbml.render']);
+        </script>  
+        <div class="container">
+            <fb:like href='%@'
+                     send='false'
+                     layout='%@'
+                     width='%.0f'
+                     show_faces='%@'
+                     action='%@'
+                     colorscheme='%@'
+                     font='%@'
+            ></fb:like>
+        </div>
+    </body>
+</html>

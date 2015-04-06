@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		D337E308119B61A5003E5728 /* LeavesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D337E307119B61A5003E5728 /* LeavesCache.m */; };
+		D33D45A2117BDE0100BA7203 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33D45A1117BDE0100BA7203 /* QuartzCore.framework */; };
+		D33D4E5B117D818100BA7203 /* LeavesView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33D4E58117D818100BA7203 /* LeavesView.m */; };
+		D33D4E5C117D818100BA7203 /* LeavesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33D4E5A117D818100BA7203 /* LeavesViewController.m */; };
+		EA97678A17EB8E3C001A0F1C /* ExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA97677317EB8E3C001A0F1C /* ExamplesViewController.m */; };
+		EA97678B17EB8E3C001A0F1C /* ImageExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA97677517EB8E3C001A0F1C /* ImageExampleViewController.m */; };
+		EA97678C17EB8E3C001A0F1C /* LeavesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA97677717EB8E3C001A0F1C /* LeavesAppDelegate.m */; };
+		EA97678D17EB8E3C001A0F1C /* PDFExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA97677917EB8E3C001A0F1C /* PDFExampleViewController.m */; };
+		EA97678E17EB8E3C001A0F1C /* ProceduralExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA97677B17EB8E3C001A0F1C /* ProceduralExampleViewController.m */; };
+		EA97679117EB8E3C001A0F1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA97678217EB8E3C001A0F1C /* Default-568h@2x.png */; };
+		EA97679217EB8E3C001A0F1C /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA97678317EB8E3C001A0F1C /* kitten.jpg */; };
+		EA97679317EB8E3C001A0F1C /* kitten2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA97678417EB8E3C001A0F1C /* kitten2.jpg */; };
+		EA97679417EB8E3C001A0F1C /* kitten3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA97678517EB8E3C001A0F1C /* kitten3.jpg */; };
+		EA97679617EB8E3C001A0F1C /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA97678717EB8E3C001A0F1C /* MainWindow-iPad.xib */; };
+		EA97679717EB8E3C001A0F1C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA97678817EB8E3C001A0F1C /* MainWindow.xib */; };
+		EA97679817EB8E3C001A0F1C /* paper.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EA97678917EB8E3C001A0F1C /* paper.pdf */; };
+		EA97679B17EB8FAB001A0F1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA97679A17EB8FAB001A0F1C /* main.m */; };
+		EA97679E17EB8FB2001A0F1C /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EA97679D17EB8FB2001A0F1C /* Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* LeavesExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeavesExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D337E306119B61A5003E5728 /* LeavesCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeavesCache.h; sourceTree = "<group>"; };
+		D337E307119B61A5003E5728 /* LeavesCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeavesCache.m; sourceTree = "<group>"; };
+		D33D45A1117BDE0100BA7203 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D33D4E57117D818100BA7203 /* LeavesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeavesView.h; sourceTree = "<group>"; };
+		D33D4E58117D818100BA7203 /* LeavesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeavesView.m; sourceTree = "<group>"; };
+		D33D4E59117D818100BA7203 /* LeavesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeavesViewController.h; sourceTree = "<group>"; };
+		D33D4E5A117D818100BA7203 /* LeavesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeavesViewController.m; sourceTree = "<group>"; };
+		EA97677217EB8E3C001A0F1C /* ExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesViewController.h; sourceTree = "<group>"; };
+		EA97677317EB8E3C001A0F1C /* ExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesViewController.m; sourceTree = "<group>"; };
+		EA97677417EB8E3C001A0F1C /* ImageExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageExampleViewController.h; sourceTree = "<group>"; };
+		EA97677517EB8E3C001A0F1C /* ImageExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageExampleViewController.m; sourceTree = "<group>"; };
+		EA97677617EB8E3C001A0F1C /* LeavesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeavesAppDelegate.h; sourceTree = "<group>"; };
+		EA97677717EB8E3C001A0F1C /* LeavesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeavesAppDelegate.m; sourceTree = "<group>"; };
+		EA97677817EB8E3C001A0F1C /* PDFExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFExampleViewController.h; sourceTree = "<group>"; };
+		EA97677917EB8E3C001A0F1C /* PDFExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFExampleViewController.m; sourceTree = "<group>"; };
+		EA97677A17EB8E3C001A0F1C /* ProceduralExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProceduralExampleViewController.h; sourceTree = "<group>"; };
+		EA97677B17EB8E3C001A0F1C /* ProceduralExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProceduralExampleViewController.m; sourceTree = "<group>"; };
+		EA97678217EB8E3C001A0F1C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA97678317EB8E3C001A0F1C /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
+		EA97678417EB8E3C001A0F1C /* kitten2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten2.jpg; sourceTree = "<group>"; };
+		EA97678517EB8E3C001A0F1C /* kitten3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten3.jpg; sourceTree = "<group>"; };
+		EA97678617EB8E3C001A0F1C /* LeavesExamples-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LeavesExamples-Info.plist"; sourceTree = "<group>"; };
+		EA97678717EB8E3C001A0F1C /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		EA97678817EB8E3C001A0F1C /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		EA97678917EB8E3C001A0F1C /* paper.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper.pdf; sourceTree = "<group>"; };
+		EA97679917EB8FAB001A0F1C /* LeavesExamples_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeavesExamples_Prefix.pch; path = LeavesExamples/LeavesExamples_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		EA97679A17EB8FAB001A0F1C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LeavesExamples/main.m; sourceTree = SOURCE_ROOT; };
+		EA97679C17EB8FB2001A0F1C /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = LeavesExamples/Other/Utilities.h; sourceTree = SOURCE_ROOT; };
+		EA97679D17EB8FB2001A0F1C /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = LeavesExamples/Other/Utilities.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				D33D45A2117BDE0100BA7203 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* LeavesExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				D33D4E56117D818100BA7203 /* Leaves */,
+				EA97677117EB8E3C001A0F1C /* Classes */,
+				EA97677C17EB8E3C001A0F1C /* Other Sources */,
+				EA97678117EB8E3C001A0F1C /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				D33D45A1117BDE0100BA7203 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33D4E56117D818100BA7203 /* Leaves */ = {
+			isa = PBXGroup;
+			children = (
+				D337E306119B61A5003E5728 /* LeavesCache.h */,
+				D337E307119B61A5003E5728 /* LeavesCache.m */,
+				D33D4E57117D818100BA7203 /* LeavesView.h */,
+				D33D4E58117D818100BA7203 /* LeavesView.m */,
+				D33D4E59117D818100BA7203 /* LeavesViewController.h */,
+				D33D4E5A117D818100BA7203 /* LeavesViewController.m */,
+			);
+			path = Leaves;
+			sourceTree = "<group>";
+		};
+		EA97677117EB8E3C001A0F1C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA97677217EB8E3C001A0F1C /* ExamplesViewController.h */,
+				EA97677317EB8E3C001A0F1C /* ExamplesViewController.m */,
+				EA97677417EB8E3C001A0F1C /* ImageExampleViewController.h */,
+				EA97677517EB8E3C001A0F1C /* ImageExampleViewController.m */,
+				EA97677617EB8E3C001A0F1C /* LeavesAppDelegate.h */,
+				EA97677717EB8E3C001A0F1C /* LeavesAppDelegate.m */,
+				EA97677817EB8E3C001A0F1C /* PDFExampleViewController.h */,
+				EA97677917EB8E3C001A0F1C /* PDFExampleViewController.m */,
+				EA97677A17EB8E3C001A0F1C /* ProceduralExampleViewController.h */,
+				EA97677B17EB8E3C001A0F1C /* ProceduralExampleViewController.m */,
+			);
+			name = Classes;
+			path = LeavesExamples/Classes;
+			sourceTree = "<group>";
+		};
+		EA97677C17EB8E3C001A0F1C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EA97679917EB8FAB001A0F1C /* LeavesExamples_Prefix.pch */,
+				EA97679A17EB8FAB001A0F1C /* main.m */,
+				EA97679C17EB8FB2001A0F1C /* Utilities.h */,
+				EA97679D17EB8FB2001A0F1C /* Utilities.m */,
+			);
+			name = "Other Sources";
+			path = "LeavesExamples/Other Sources";
+			sourceTree = "<group>";
+		};
+		EA97678117EB8E3C001A0F1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA97678217EB8E3C001A0F1C /* Default-568h@2x.png */,
+				EA97678317EB8E3C001A0F1C /* kitten.jpg */,
+				EA97678417EB8E3C001A0F1C /* kitten2.jpg */,
+				EA97678517EB8E3C001A0F1C /* kitten3.jpg */,
+				EA97678617EB8E3C001A0F1C /* LeavesExamples-Info.plist */,
+				EA97678717EB8E3C001A0F1C /* MainWindow-iPad.xib */,
+				EA97678817EB8E3C001A0F1C /* MainWindow.xib */,
+				EA97678917EB8E3C001A0F1C /* paper.pdf */,
+			);
+			name = Resources;
+			path = LeavesExamples/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* LeavesExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LeavesExamples" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeavesExamples;
+			productName = Leaves;
+			productReference = 1D6058910D05DD3D006BFB54 /* LeavesExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tom Brow";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LeavesExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* LeavesExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA97679717EB8E3C001A0F1C /* MainWindow.xib in Resources */,
+				EA97679817EB8E3C001A0F1C /* paper.pdf in Resources */,
+				EA97679417EB8E3C001A0F1C /* kitten3.jpg in Resources */,
+				EA97679217EB8E3C001A0F1C /* kitten.jpg in Resources */,
+				EA97679117EB8E3C001A0F1C /* Default-568h@2x.png in Resources */,
+				EA97679617EB8E3C001A0F1C /* MainWindow-iPad.xib in Resources */,
+				EA97679317EB8E3C001A0F1C /* kitten2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA97678E17EB8E3C001A0F1C /* ProceduralExampleViewController.m in Sources */,
+				D33D4E5B117D818100BA7203 /* LeavesView.m in Sources */,
+				EA97678A17EB8E3C001A0F1C /* ExamplesViewController.m in Sources */,
+				EA97678D17EB8E3C001A0F1C /* PDFExampleViewController.m in Sources */,
+				EA97679E17EB8FB2001A0F1C /* Utilities.m in Sources */,
+				EA97678B17EB8E3C001A0F1C /* ImageExampleViewController.m in Sources */,
+				D33D4E5C117D818100BA7203 /* LeavesViewController.m in Sources */,
+				EA97678C17EB8E3C001A0F1C /* LeavesAppDelegate.m in Sources */,
+				EA97679B17EB8FAB001A0F1C /* main.m in Sources */,
+				D337E308119B61A5003E5728 /* LeavesCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/LeavesExamples/Resources/LeavesExamples-Info.plist";
+				PRODUCT_NAME = LeavesExamples;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/LeavesExamples/Resources/LeavesExamples-Info.plist";
+				PRODUCT_NAME = LeavesExamples;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeavesExamples/LeavesExamples_Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeavesExamples/LeavesExamples_Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LeavesExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LeavesExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,2 @@
+language:      objective-c
+script:        xctool -project RSBarcodesSample.xcodeproj -scheme RSBarcodesSample -sdk iphonesimulator build

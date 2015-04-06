@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063DF5DF179DFA8800DDD163 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063DF5DE179DFA8800DDD163 /* SystemConfiguration.framework */; };
+		0662F801179DFBE3003391B6 /* PBJNetworkObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0662F800179DFBE3003391B6 /* PBJNetworkObserver.m */; };
+		06E82127179DF36A0081AFE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E82126179DF36A0081AFE3 /* Foundation.framework */; };
+		06E82129179DF36A0081AFE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E82128179DF36A0081AFE3 /* CoreGraphics.framework */; };
+		06E8212B179DF36A0081AFE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E8212A179DF36A0081AFE3 /* UIKit.framework */; };
+		06E82131179DF36A0081AFE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06E8212F179DF36A0081AFE3 /* InfoPlist.strings */; };
+		06E82133179DF36A0081AFE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E82132179DF36A0081AFE3 /* main.m */; };
+		06E82137179DF36A0081AFE3 /* PBJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E82136179DF36A0081AFE3 /* PBJAppDelegate.m */; };
+		06E8213D179DF36A0081AFE3 /* PBJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E8213C179DF36A0081AFE3 /* PBJViewController.m */; };
+		06FCBECB189771BC0039DB52 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FCBEC8189771BC0039DB52 /* Default-568h@2x.png */; };
+		06FCBECC189771BC0039DB52 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FCBEC9189771BC0039DB52 /* Default.png */; };
+		06FCBECD189771BC0039DB52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FCBECA189771BC0039DB52 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		060B9B68179DF44400E32103 /* Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = SOURCE_ROOT; };
+		060B9B69179DF44400E32103 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		060B9B6A179DF44400E32103 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = SOURCE_ROOT; };
+		063DF5DE179DFA8800DDD163 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0662F7FF179DFBE3003391B6 /* PBJNetworkObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBJNetworkObserver.h; path = ../Source/PBJNetworkObserver.h; sourceTree = "<group>"; };
+		0662F800179DFBE3003391B6 /* PBJNetworkObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBJNetworkObserver.m; path = ../Source/PBJNetworkObserver.m; sourceTree = "<group>"; };
+		06E82123179DF36A0081AFE3 /* NetworkObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E82126179DF36A0081AFE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06E82128179DF36A0081AFE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06E8212A179DF36A0081AFE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06E8212E179DF36A0081AFE3 /* NetworkObserver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkObserver-Info.plist"; sourceTree = "<group>"; };
+		06E82130179DF36A0081AFE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06E82132179DF36A0081AFE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06E82134179DF36A0081AFE3 /* NetworkObserver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkObserver-Prefix.pch"; sourceTree = "<group>"; };
+		06E82135179DF36A0081AFE3 /* PBJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBJAppDelegate.h; sourceTree = "<group>"; };
+		06E82136179DF36A0081AFE3 /* PBJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBJAppDelegate.m; sourceTree = "<group>"; };
+		06E8213B179DF36A0081AFE3 /* PBJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBJViewController.h; sourceTree = "<group>"; };
+		06E8213C179DF36A0081AFE3 /* PBJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBJViewController.m; sourceTree = "<group>"; };
+		06FCBEC8189771BC0039DB52 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		06FCBEC9189771BC0039DB52 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		06FCBECA189771BC0039DB52 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06E82120179DF36A0081AFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063DF5DF179DFA8800DDD163 /* SystemConfiguration.framework in Frameworks */,
+				06E82129179DF36A0081AFE3 /* CoreGraphics.framework in Frameworks */,
+				06E8212B179DF36A0081AFE3 /* UIKit.framework in Frameworks */,
+				06E82127179DF36A0081AFE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E8211A179DF36A0081AFE3 = {
+			isa = PBXGroup;
+			children = (
+				0662F7FF179DFBE3003391B6 /* PBJNetworkObserver.h */,
+				0662F800179DFBE3003391B6 /* PBJNetworkObserver.m */,
+				06E8212C179DF36A0081AFE3 /* NetworkObserver */,
+				06E82125179DF36A0081AFE3 /* Frameworks */,
+				06E82124179DF36A0081AFE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06E82124179DF36A0081AFE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06E82123179DF36A0081AFE3 /* NetworkObserver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06E82125179DF36A0081AFE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				063DF5DE179DFA8800DDD163 /* SystemConfiguration.framework */,
+				06E82126179DF36A0081AFE3 /* Foundation.framework */,
+				06E82128179DF36A0081AFE3 /* CoreGraphics.framework */,
+				06E8212A179DF36A0081AFE3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06E8212C179DF36A0081AFE3 /* NetworkObserver */ = {
+			isa = PBXGroup;
+			children = (
+				06E82135179DF36A0081AFE3 /* PBJAppDelegate.h */,
+				06E82136179DF36A0081AFE3 /* PBJAppDelegate.m */,
+				06E8213B179DF36A0081AFE3 /* PBJViewController.h */,
+				06E8213C179DF36A0081AFE3 /* PBJViewController.m */,
+				06E8212D179DF36A0081AFE3 /* Supporting Files */,
+			);
+			path = NetworkObserver;
+			sourceTree = "<group>";
+		};
+		06E8212D179DF36A0081AFE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				060B9B68179DF44400E32103 /* Base.xcconfig */,
+				060B9B69179DF44400E32103 /* Debug.xcconfig */,
+				060B9B6A179DF44400E32103 /* Release.xcconfig */,
+				06FCBEC8189771BC0039DB52 /* Default-568h@2x.png */,
+				06FCBEC9189771BC0039DB52 /* Default.png */,
+				06FCBECA189771BC0039DB52 /* Default@2x.png */,
+				06E8212E179DF36A0081AFE3 /* NetworkObserver-Info.plist */,
+				06E82134179DF36A0081AFE3 /* NetworkObserver-Prefix.pch */,
+				06E8212F179DF36A0081AFE3 /* InfoPlist.strings */,
+				06E82132179DF36A0081AFE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06E82122179DF36A0081AFE3 /* NetworkObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E82155179DF36A0081AFE3 /* Build configuration list for PBXNativeTarget "NetworkObserver" */;
+			buildPhases = (
+				06E8211F179DF36A0081AFE3 /* Sources */,
+				06E82120179DF36A0081AFE3 /* Frameworks */,
+				06E82121179DF36A0081AFE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkObserver;
+			productName = NetworkObserver;
+			productReference = 06E82123179DF36A0081AFE3 /* NetworkObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06E8211B179DF36A0081AFE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PBJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Patrick Piemonte";
+			};
+			buildConfigurationList = 06E8211E179DF36A0081AFE3 /* Build configuration list for PBXProject "NetworkObserver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06E8211A179DF36A0081AFE3;
+			productRefGroup = 06E82124179DF36A0081AFE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06E82122179DF36A0081AFE3 /* NetworkObserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06E82121179DF36A0081AFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FCBECC189771BC0039DB52 /* Default.png in Resources */,
+				06E82131179DF36A0081AFE3 /* InfoPlist.strings in Resources */,
+				06FCBECB189771BC0039DB52 /* Default-568h@2x.png in Resources */,
+				06FCBECD189771BC0039DB52 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06E8211F179DF36A0081AFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E8213D179DF36A0081AFE3 /* PBJViewController.m in Sources */,
+				0662F801179DFBE3003391B6 /* PBJNetworkObserver.m in Sources */,
+				06E82133179DF36A0081AFE3 /* main.m in Sources */,
+				06E82137179DF36A0081AFE3 /* PBJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06E8212F179DF36A0081AFE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E82130179DF36A0081AFE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06E82153179DF36A0081AFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060B9B69179DF44400E32103 /* Debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06E82154179DF36A0081AFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060B9B6A179DF44400E32103 /* Release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		06E82156179DF36A0081AFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/NetworkObserver/NetworkObserver-Info.plist";
+			};
+			name = Debug;
+		};
+		06E82157179DF36A0081AFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/NetworkObserver/NetworkObserver-Info.plist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E8211E179DF36A0081AFE3 /* Build configuration list for PBXProject "NetworkObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E82153179DF36A0081AFE3 /* Debug */,
+				06E82154179DF36A0081AFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E82155179DF36A0081AFE3 /* Build configuration list for PBXNativeTarget "NetworkObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E82156179DF36A0081AFE3 /* Debug */,
+				06E82157179DF36A0081AFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06E8211B179DF36A0081AFE3 /* Project object */;
+}

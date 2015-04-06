@@ -1,0 +1,807 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>NSManagedObject(SJODataKitAdditions) Category Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">SJODataKit </a></h1>
+				<a id="developerHome" href="../index.html">Sam Oakley</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">NSManagedObject(SJODataKitAdditions) Category Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/entityName">&nbsp;&nbsp;&nbsp;&nbsp;+ entityName</option>
+	
+	<option value="//api/name/entityWithContext:">&nbsp;&nbsp;&nbsp;&nbsp;+ entityWithContext:</option>
+	
+	<option value="//api/name/fetchRequest">&nbsp;&nbsp;&nbsp;&nbsp;+ fetchRequest</option>
+	
+	<option value="//api/name/findByKey:value:inContext:">&nbsp;&nbsp;&nbsp;&nbsp;+ findByKey:value:inContext:</option>
+	
+	<option value="//api/name/findOrInsertByKey:value:inContext:">&nbsp;&nbsp;&nbsp;&nbsp;+ findOrInsertByKey:value:inContext:</option>
+	
+	<option value="//api/name/insertInContext:">&nbsp;&nbsp;&nbsp;&nbsp;+ insertInContext:</option>
+	
+	<option value="//api/name/insertOrUpdate:forUniqueKey:withBlock:inStore:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ insertOrUpdate:forUniqueKey:withBlock:inStore:error:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/delete">&nbsp;&nbsp;&nbsp;&nbsp;- delete</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/entityName">entityName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/entityWithContext:">entityWithContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fetchRequest">fetchRequest</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/findByKey:value:inContext:">findByKey:value:inContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/findOrInsertByKey:value:inContext:">findOrInsertByKey:value:inContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertInContext:">insertInContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertOrUpdate:forUniqueKey:withBlock:inStore:error:">insertOrUpdate:forUniqueKey:withBlock:inStore:error:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delete">delete</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="NSManagedObject(SJODataKitAdditions) Category Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">NSManagedObject(SJODataKitAdditions) Category Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">NSManagedObject+SJODataKitAdditions.h<br />NSManagedObject+SJODataKitAdditions.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Additions to NSManagedObject to reduce boilerplate and simplify common operations.</p><div class="warning"><p><strong>Warning:</strong> These methods never should <strong>never</strong> be called directly on <code>NSManagedObject</code> (e.g. <code>[NSManagedObject entityName]</code>), but instead only on subclasses.</p></div>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/entityName">+&nbsp;entityName</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/entityWithContext:">+&nbsp;entityWithContext:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertInContext:">+&nbsp;insertInContext:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/findByKey:value:inContext:">+&nbsp;findByKey:value:inContext:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/findOrInsertByKey:value:inContext:">+&nbsp;findOrInsertByKey:value:inContext:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fetchRequest">+&nbsp;fetchRequest</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertOrUpdate:forUniqueKey:withBlock:inStore:error:">+&nbsp;insertOrUpdate:forUniqueKey:withBlock:inStore:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delete">&ndash;&nbsp;delete</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/entityName" title="entityName"></a>
+	<h3 class="subsubtitle method-title">entityName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The name of the entity, derived from the class name.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)entityName</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The name of the entity.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The name of the entity, derived from the class name.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSManagedObject+SJODataKitAdditions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/entityWithContext:" title="entityWithContext:"></a>
+	<h3 class="subsubtitle method-title">entityWithContext:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A convenience method for obtaning a new <code>NSEntityDescription</code>.\</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSEntityDescription *)entityWithContext:(NSManagedObjectContext *)<em>context</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>context</em></dt>
+			<dd><p>The <code>NSManagedObjectContext</code> to use. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The entity for the calling class from the managed object model associated with context’s persistent store coordinator.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A convenience method for obtaning a new <code>NSEntityDescription</code>.\</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSManagedObject+SJODataKitAdditions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fetchRequest" title="fetchRequest"></a>
+	<h3 class="subsubtitle method-title">fetchRequest</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a fetch request configured with a given entity name.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSFetchRequest *)fetchRequest</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A fetch request configured to fetch using the subclass' entity.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a fetch request configured with a given entity name.</p><p>This method provides a convenient way to create a fetch request without having to retrieve an NSEntityDescription object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSManagedObject+SJODataKitAdditions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/findByKey:value:inContext:" title="findByKey:value:inContext:"></a>
+	<h3 class="subsubtitle method-title">findByKey:value:inContext:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Find an instance of <code>NSManagedObject</code> subclass in the <code>NSManagedObjectContext</code> matching the key and value.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)findByKey:(NSString *)<em>key</em> value:(id)<em>value</em> inContext:(NSManagedObjectContext *)<em>context</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>The name of the object property to match on.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The value of the property specified by <code>key</code>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>context</em></dt>
+			<dd><p>The <code>NSManagedObjectContext</code> to use.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The matching object, or nil if no match is found.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Find an instance of <code>NSManagedObject</code> subclass in the <code>NSManagedObjectContext</code> matching the key and value.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSManagedObject+SJODataKitAdditions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/findOrInsertByKey:value:inContext:" title="findOrInsertByKey:value:inContext:"></a>
+	<h3 class="subsubtitle method-title">findOrInsertByKey:value:inContext:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Find an instance of <code>NSManagedObject</code> subclass in the <code>NSManagedObjectContext</code> matching the key and value. If no match is found, a new object is inserted with the it&rsquo;s <code>key</code> value set appropriately.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)findOrInsertByKey:(NSString *)<em>key</em> value:(id)<em>value</em> inContext:(NSManagedObjectContext *)<em>context</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>The name of the object property to match on.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The value of the property specified by <code>key</code>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>context</em></dt>
+			<dd><p>The <code>NSManagedObjectContext</code> to use.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An object retrieved from the context, or a new object inserted to the context with <code>key</code> set to <code>value</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Find an instance of <code>NSManagedObject</code> subclass in the <code>NSManagedObjectContext</code> matching the key and value. If no match is found, a new object is inserted with the it&rsquo;s <code>key</code> value set appropriately.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSManagedObject+SJODataKitAdditions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertInContext:" title="insertInContext:"></a>
+	<h3 class="subsubtitle method-title">insertInContext:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Insert and return a new instance of <code>NSManagedObject</code> subclass.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)insertInContext:(NSManagedObjectContext *)<em>context</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>context</em></dt>
+			<dd><p>The <code>NSManagedObjectContext</code> to use. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A new, autoreleased, fully configured instance of the class. The instance has its entity description set and is inserted it into context.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Insert and return a new instance of <code>NSManagedObject</code> subclass.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSManagedObject+SJODataKitAdditions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertOrUpdate:forUniqueKey:withBlock:inStore:error:" title="insertOrUpdate:forUniqueKey:withBlock:inStore:error:"></a>
+	<h3 class="subsubtitle method-title">insertOrUpdate:forUniqueKey:withBlock:inStore:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Perform a batch insert-or-update.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)insertOrUpdate:(NSArray *)<em>dictArray</em> forUniqueKey:(NSString *)<em>key</em> withBlock:(void ( ^ ) ( NSDictionary *dictionary , id managedObject ))<em>block</em> inStore:(SJODataStore *)<em>store</em> error:(NSError *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dictArray</em></dt>
+			<dd><p>An array of dictionaries corresponsing to the objects you wish to insert/update. It is not necessary that the keys of the dictionary are the same as the <code>NSManagedObject</code> properties, only that they share the value specified by the <code>key</code> parameter.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>The key that cam be used to identidy uniqueness between the <code>NSManagedObject</code>s and the dictionaries. Usually an ID returned byy a web service.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>This block is called when the values of a newly inserted or a fetched object need to be set. In order that the keys of the dictionary do not have to 1-1 correspond with the model, both are used as parameters to the block so that the model may be set form the dictionary. You may include additional logic within this block to determine if an update should actually occur. For example:</p>
+
+<pre><code> [Bookmark insertOrUpdate:responseObject
+     forUniqueKey:@"href"
+     withBlock:^(NSDictionary *dictionary, Bookmark *bookmark) {
+         //Set the object values from the dict (or however). Here we perform some additional logic.
+         if (![bookmark.deleted boolValue] &amp;&amp; ![[bookmark changeDetectionHash] isEqualToString:dictionary[@"meta"]]) {
+             [bookmark setFromDictionary:dictionary];
+         }
+     }
+     inStore:store
+     error:nil];
+</code></pre></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>store</em></dt>
+			<dd><p>The <a href="../Classes/SJODataStore.html"><code>SJODataStore</code></a> in which to perform the inserts/updates.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>An error pointer</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Perform a batch insert-or-update.</p><p>This method codifies the pattern found in the Apple guide to <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CoreData/Articles/cdImporting.html#//apple_ref/doc/uid/TP40003174-SW4">Implementing Find-or-Create Efficiently</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSManagedObject+SJODataKitAdditions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/delete" title="delete"></a>
+	<h3 class="subsubtitle method-title">delete</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Delete the <code>NSManagedObjectContext</code> from its current context.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)delete</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Delete the <code>NSManagedObjectContext</code> from its current context.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSManagedObject+SJODataKitAdditions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Sam Oakley. All rights reserved. (Last updated: 2013-07-17)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

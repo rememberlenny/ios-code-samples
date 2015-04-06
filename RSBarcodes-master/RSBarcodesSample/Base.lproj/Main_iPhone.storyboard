@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uDM-TM-WAF"/>
+                        <viewControllerLayoutGuide type="bottom" id="zf4-ft-6Rn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="C8k-Zl-W9c">
+                                <rect key="frame" x="10" y="30" width="300" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7q4-9a-Zg6" customClass="RSCornersView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="06M-Vl-NSH" customClass="RSCodeView">
+                                <rect key="frame" x="10" y="518" width="300" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ene-yv-gy6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zf4-ft-6Rn" firstAttribute="top" secondItem="06M-Vl-NSH" secondAttribute="bottom" constant="10" id="Ajf-Ck-LSr"/>
+                            <constraint firstAttribute="trailing" secondItem="C8k-Zl-W9c" secondAttribute="trailing" constant="10" id="DWi-Se-HP2"/>
+                            <constraint firstItem="06M-Vl-NSH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="Hyp-Ha-ErM"/>
+                            <constraint firstAttribute="trailing" secondItem="06M-Vl-NSH" secondAttribute="trailing" constant="10" id="kC5-vF-2Uq"/>
+                            <constraint firstItem="7q4-9a-Zg6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="oXg-wZ-kNF"/>
+                            <constraint firstItem="C8k-Zl-W9c" firstAttribute="top" secondItem="uDM-TM-WAF" secondAttribute="bottom" constant="10" id="p61-Tx-Yzx"/>
+                            <constraint firstItem="C8k-Zl-W9c" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="rVH-4x-vRW"/>
+                            <constraint firstAttribute="trailing" secondItem="7q4-9a-Zg6" secondAttribute="trailing" id="uFa-c3-Qg3"/>
+                            <constraint firstAttribute="bottom" secondItem="7q4-9a-Zg6" secondAttribute="bottom" id="vRJ-I9-FpL"/>
+                            <constraint firstItem="7q4-9a-Zg6" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="xac-Uu-GO3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="codeLabel" destination="C8k-Zl-W9c" id="4h1-uM-lWg"/>
+                        <outlet property="codeView" destination="06M-Vl-NSH" id="E0B-IK-JuR"/>
+                        <outlet property="highlightView" destination="7q4-9a-Zg6" id="NmZ-fK-gGI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

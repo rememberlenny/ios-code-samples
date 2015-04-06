@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3392AB0E-9E27-43A1-81B4-0972ED37F786</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SJODataKitExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EF6E991A-94B0-4747-B5A6-CF5CC4D9AC16</key>
+		<string>https://github.com/CaptainRedmuff/SJODataKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SJODataKitExample/SJODataKitExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EF6E991A-94B0-4747-B5A6-CF5CC4D9AC16</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CaptainRedmuff/SJODataKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EF6E991A-94B0-4747-B5A6-CF5CC4D9AC16</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EF6E991A-94B0-4747-B5A6-CF5CC4D9AC16</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Clones</string>
+		</dict>
+	</array>
+</dict>
+</plist>
